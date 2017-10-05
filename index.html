@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>slimSlider</title>
+    <link type="text/css" href="css/popup.css" rel="stylesheet" />
+    <link type="text/css" href="css/slider.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/slider.js"></script>
+
+
+</head>
+<body>
+
+<div class="entry-gallery facke" onClick="slimSliderOpenSlider('gallery')">openGalleryModal</div>
+    <div id="gallery" class="popup popup-gallery">
+        <div class="popup-main" data-module="fotogaleria">
+            <div class="popup-content btnVideoNext">
+                <div class="slimSliderContentSlider photoSlideActive">
+                    <div class="slide-prev disabled icon" onClick="slimSliderNextPrevSlide(this,'prev');">
+                    </div>
+                    <div class="slide-next icon" onClick="slimSliderNextPrevSlide(this,'next');">
+                    </div>
+                    <div class="swiper-wrapper" style="--data-x:0;">
+                        <div class="slide swipe-image">
+                            <div class="SlideCenterImage"> 
+                                <img src="http://via.placeholder.com/860x575" width="" height="" alt="Imagenes de prueba SlimSlider">
+                                <p class="image-description"> 
+                                    <span class="image-title">Imagenes de prueba SlimSlider</span> 
+                                    <span class="author-image"></span> 
+                                </p>
+                            </div>
+                        </div>
+                        <div class="slide swipe-image">
+                            <div class="SlideCenterImage"> 
+                                <img src="http://via.placeholder.com/860x575" width="" height="" alt="Imagenes de prueba SlimSlider">
+                                <p class="image-description"> 
+                                    <span class="image-title">Imagenes de prueba SlimSlider</span> 
+                                    <span class="author-image"></span> 
+                                </p>
+                            </div>
+                        </div>
+                        <div class="slide swipe-image">
+                            <div class="SlideCenterImage"> 
+                                <img src="http://via.placeholder.com/860x575" width="" height="" alt="Imagenes de prueba SlimSlider">
+                                <p class="image-description"> 
+                                    <span class="image-title">Imagenes de prueba SlimSlider</span> 
+                                    <span class="author-image"></span> 
+                                </p>
+                            </div>
+                        </div>
+                        <div class="slide swipe-image">
+                            <div class="SlideCenterImage"> 
+                                <img src="http://via.placeholder.com/860x575" width="" height="" alt="Imagenes de prueba SlimSlider">
+                                <p class="image-description"> 
+                                    <span class="image-title">Imagenes de prueba SlimSlider</span> 
+                                    <span class="author-image"></span> 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><span class="popup-close closing-popup" onclick="slimSliderCloseSlider('gallery');" style="z-index:9999;"> <span class="icon close-white"></span> </span>
+    </div>
+</body>
+</html>
